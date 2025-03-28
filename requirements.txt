@@ -1,0 +1,6 @@
+flask
+tensorflow
+xgboost
+numpy
+pandas
+joblib
