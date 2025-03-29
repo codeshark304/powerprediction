@@ -52,10 +52,11 @@ docker run -p 5000:5000 power-prediction
 ## Project Structure
 ```sh
 power-prediction/
-│── models/               # Trained models
-│── static/               # CSS, JS, images
+│── lstm_model.h5         # Trained model
+│── processed_weather     # CSV file
+│── main.ipynb            # ML model      
 │── templates/            # HTML templates
-│── app.py                # Flask backend
+│── app/app.py            # Flask backend
 │── requirements.txt      # Dependencies
 │── Dockerfile            # Docker configuration
 └── README.md             # Project documentation
