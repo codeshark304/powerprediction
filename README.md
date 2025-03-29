@@ -55,7 +55,7 @@ power-prediction/
 │── models                # Trained model
 │── processed_weather     # CSV file
 │── main.ipynb            # ML model      
-│── templates/            # HTML templates
+│── template/            # HTML templates
 │── app/app.py            # Flask backend
 │── requirements.txt      # Dependencies
 │── Dockerfile            # Docker configuration
